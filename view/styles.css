@@ -4,8 +4,12 @@
 }
 
 body {
-    background: rgb(63, 94, 251);
-    background: linear-gradient(180deg, rgba(63, 94, 251, 1) 0%, rgba(207, 70, 252, 1) 100%);
+    background-image: url("../images/bg-image.jpg");
+    /* background: rgb(63, 231, 251);
+    background: -moz-linear-gradient(180deg, rgba(63, 231, 251, 1) 0%, rgba(207, 70, 252, 0.5018207111946341) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(63, 231, 251, 1) 0%, rgba(207, 70, 252, 0.5018207111946341) 100%);
+    background: linear-gradient(180deg, rgba(63, 231, 251, 1) 0%, rgba(207, 70, 252, 0.5018207111946341) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#3fe7fb", endColorstr="#cf46fc", GradientType=1); */
 }
 
 div.card-container {
@@ -16,7 +20,7 @@ div.card-container {
 
 header {
     color: white;
-    background-color: #4541b6;
+    background: #c2604f;
     position: sticky;
     text-align: center;
     position: -webkit-sticky;
@@ -39,7 +43,13 @@ input.input {
 
 button.btn {
     margin: 10px;
-    background-color: #4541b6;
+    background: #c2604f;
+    color: #ffff;
+}
+
+button.btn:hover {
+    background: #d45039;
+    color: #ffff;
 }
 
 .card-text {
@@ -48,7 +58,8 @@ button.btn {
 }
 
 footer {
-    background-color: #ffff;
+    background-color: #23181c;
+    color: white;
 }
 
 @media(max-width: 800px) {

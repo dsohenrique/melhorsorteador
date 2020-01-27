@@ -1,36 +1,58 @@
-*{
-  margin: 0 auto;
-  width: 100%;
+* {
+    margin: 0 auto;
+    width: 100%;
 }
 
-body{
-  background-color: blanchedalmond;
+body {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(180deg, rgba(63, 94, 251, 1) 0%, rgba(207, 70, 252, 1) 100%);
 }
 
-div.card-container{
-  width: 65%;
-  -webkit-box-shadow: 0px 0px 15px -3px #000000; 
-  box-shadow: 0px 0px 15px -3px #000000;
-}
-div.input-group{
-  display: grid;
+div.card-container {
+    width: 65%;
+    -webkit-box-shadow: 0px 0px 15px -3px #000000;
+    box-shadow: 0px 0px 15px -3px #000000;
 }
 
-input.input{
-  border-radius: 5px;
-  margin: 10px;
-  border: solid #707070 1px
-}
-button.btn{
-  margin: 10px;
-}
-.card-text{
-  text-align: center;
-  font-weight: bold;
+header {
+    color: white;
+    background-color: #4541b6;
+    position: sticky;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    -webkit-box-shadow: 0px 0px 15px -3px #000000;
+    box-shadow: 0px 0px 15px -3px #000000;
 }
 
-@media(max-width: 800px){
-  div.card-container{
-      width: 100%;
-  }
+div.input-group {
+    display: grid;
+}
+
+input.input {
+    border-radius: 5px;
+    margin: 10px;
+    border: solid #707070 1px
+}
+
+button.btn {
+    margin: 10px;
+    background-color: #4541b6;
+}
+
+.card-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #ffff;
+}
+
+@media(max-width: 800px) {
+    div.card-container {
+        width: 100%;
+    }
 }

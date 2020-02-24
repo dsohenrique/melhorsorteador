@@ -5,11 +5,6 @@
 
 body {
     background-image: url("../images/bg-image.jpg");
-    /* background: rgb(63, 231, 251);
-    background: -moz-linear-gradient(180deg, rgba(63, 231, 251, 1) 0%, rgba(207, 70, 252, 0.5018207111946341) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(63, 231, 251, 1) 0%, rgba(207, 70, 252, 0.5018207111946341) 100%);
-    background: linear-gradient(180deg, rgba(63, 231, 251, 1) 0%, rgba(207, 70, 252, 0.5018207111946341) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#3fe7fb", endColorstr="#cf46fc", GradientType=1); */
 }
 
 div.card-container {
@@ -58,7 +53,7 @@ button.btn:hover {
 }
 
 footer {
-    background-color: #23181c;
+    background-color: #23181cc7;
     color: white;
 }
 
